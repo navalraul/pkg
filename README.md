@@ -20,6 +20,8 @@ License file is optional if you want to use the License of the actual repository
 
 You must create a directory called the package name in the packages directory.
 
+Once you have added your package in your fork, you can then make a pull request here to get it added!
+
 ## What not to do in your packages
 
 - Do not add malicious code.
