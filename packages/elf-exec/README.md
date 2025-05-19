@@ -8,4 +8,4 @@ Kali in Batch package allowing you to run Linux binaries, leveraging WSL.
 
 ## License
 
-[0-Clause BSD](./LICENSE).
+[MIT License](./LICENSE).
