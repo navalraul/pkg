@@ -12,6 +12,6 @@ else
     # Wait for user to input a path
     read -p "Enter the path to the executable: " path
     # Run the executable
-    wsl bash -c "${path} && exit"
+    wsl bash -c "cd ~ && ${path} && exit"
     exit 0
 fi
