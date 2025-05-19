@@ -1,6 +1,6 @@
 ## elf-exec
 
-Kali in Batch package allowing you to run Linux binaries, leveraging WSL.
+Kali in Batch package allowing you to run Linux binaries leveraging the Windows Subsystem for Linux.
 
 ## Features
 
