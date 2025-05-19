@@ -12,6 +12,6 @@ else
     # Wait for user to input a path
     read -p "Enter the path to the executable: " path
     # Run the executable
-    $path
+    wsl $path
     exit 0
 fi
