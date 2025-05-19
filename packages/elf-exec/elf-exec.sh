@@ -21,7 +21,7 @@ else
     echo "To run a Linux executable, check the partition you installed Kali in Batch in. For example if it is in E:, run this:"
     echo "/mnt/e/path/to/executable"
     # Wait for user to input a path
-    read -p "Enter the path to the executable: " path
+    read -p "Enter the path to the executable, or a command: " path
     # Run the executable
     wsl bash -c "cd ~ && ${path} && exit"
     exit 0
