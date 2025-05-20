@@ -19,7 +19,7 @@ if [ $? -ne 0 ]; then
 else
     echo "WSL is installed."
     # Wait for user to input a path
-    read -p "Executable to run that's in the current directory (you can also run a command): " path
+    read -p "Executable to run that's in the current directory, for example if it's called busybox, enter ./busybox (You can also run any command you want!): " path
     # Run the executable
     wsl sh -c "${path} && exit"
     exit 0
