@@ -18,11 +18,9 @@ if [ $? -ne 0 ]; then
     exit 1
 else
     echo "WSL is installed."
-    echo "To run a Linux executable, check the partition you installed Kali in Batch in. For example if it is in E:, run this:"
-    echo "/mnt/e/path/to/executable"
     # Wait for user to input a path
-    read -p "Enter the path to the executable, or a command: " path
+    read -p "Executable to run that's in the current directory (you can also run a command): " path
     # Run the executable
-    wsl bash -c "cd ~ && ${path} && exit"
+    wsl sh -c "${path} && exit"
     exit 0
 fi
